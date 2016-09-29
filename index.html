@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<title>How light can you go?</title>
+<meta name='description' content='Ever wonder what the minimum color contrast ratio is for different font sizes?'>
+<meta name='twitter:card' content='summary' />
+<meta name='twitter:site' content='@jxnblk' />
+<meta name='twitter:title' content='How light can you go?' />
+<meta name='twitter:description' content='Ever wonder what the minimum color contrast ratio is for different font sizes?'>
+<meta name='twitter:image' content='http://jxnblk.s3.amazonaws.com/Aa.png' />
+<link rel='stylesheet' href='https://unpkg.com/basscss-basic@1.0.0/index.css'>
+<link rel='stylesheet' href='https://unpkg.com/basscss@8.0.2/css/basscss.min.css'>
+<style>
+table { min-width:100%;table-layout:fixed;border-spacing:0;border-collapse:separate; }
+th,td { padding: 4px }
+.gray-7   { color: #595959 }
+.gray-4p5 { color: #767676 }
+.gray-3   { color: #959595 }
+</style>
+<header class='max-width-4 mx-auto px3 py3'>
+  <h1>How light can you go?</h1>
+  <p>Ever wonder what the minimum color contrast ratio is for different font sizes?</p>
+  <a href='https://twitter.com/share'
+    class='twitter-share-button'
+    data-via='jxnblk'
+    data-show-count='false'>Tweet</a>
+</header>
+<main class='max-width-4 mx-auto px3'>
+  <section id='tldr' class='clearfix max-width-4 mxn2 py3'>
+    <div class='sm-col sm-col-6 px2'>
+      <h2>Level AA</h2>
+      <div class='h2 mb2 gray-3'>24px #959595 (3:1 contrast ratio)</div>
+      <div class='h3 mb2 bold gray-3'>20px Bold #959595 (3:1)</div>
+      <div class='h4 mb2 gray-4p5'>16px #767676 (4.5:1)</div>
+    </div>
+    <div class='sm-col sm-col-6 px2'>
+      <h2>Level AAA</h2>
+      <div class='h2 mb2 gray-4p5'>24px #767676 (4.5:1)</div>
+      <div class='h3 mb2 bold gray-4p5'>20px Bold #767676 (4.5:1)</div>
+      <div class='h4 mb2 gray-7'>16px #595959 (7:1)</div>
+    </div>
+  </section>
+  <section id='intro' class='max-width-3 py3'>
+    <h2>Why does this matter?</h2>
+    <p>
+      Using shades of gray lighter than the above means some people will <b>not</b>
+      be able to read or use your site as well as others,
+      which can be a really bad user experience and can cost your business money in lost revenue.
+      Not to mention, it’s just a tad bit discriminatory, isn’t it?
+    </p>
+    <p>
+      Ever tried to use your phone outside during the day? Maybe you can relate.
+    </p>
+  </section>
+
+  <div class='clearfix max-width-4 mxn2'>
+    <section id='aa' class='sm-col sm-col-6 px2 py2 gray-4p5'>
+      <h2>Level AA</h2>
+      <p>
+        The minimum recommended contrast ratio is 4.5:1.
+        #767676 is the lightest shade of gray that's safe to use on a white background.
+      </p>
+    </section>
+    <section id='aaa' class='sm-col sm-col-6 px2 py2 gray-7'>
+      <h2>Level AAA</h2>
+      <p>
+        For enhanced readability,
+        the minimum recommended contrast ratio is 7:1.
+        #595959 is the lightest shade that meets this contrast ratio.
+      </p>
+    </section>
+    <div class='clearfix'></div>
+    <section id='aa-large' class='sm-col sm-col-6 px2 py2 gray-3'>
+      <h2>AA Large Text</h2>
+      <p class='h2'>
+        For large text, the minimum is 3:1.
+        #959595 is the lightest shade that's safe to use on a white background.
+        Large text is at least 18 points or 14 points bold.
+        That’s 24px and 19.2px respectively.
+      </p>
+    </section>
+    <section id='aaa-large' class='sm-col sm-col-6 px2 py2 gray-4p5'>
+      <h2>AAA Large Text</h2>
+      <p class='h2'>
+        For enhanced readability,
+        the minimum recommended contrast ratio for large text is 4.5:1.
+        #767676 is the lightest shade that's safe to use.
+      </p>
+    </section>
+  </div>
+
+  <section id='table' class='max-width-4 py3'>
+    <h3>Reference Table</h3>
+    <div class='overflow-auto'>
+      <table>
+        <thead>
+          <tr class='left-align'>
+            <th class='border-bottom'>Font Size</th>
+            <th class='border-bottom'>AAA Minimum</th>
+            <th class='border-bottom'>AAA Minimum Gray</th>
+            <th class='border-bottom'>AA Minimum</th>
+            <th class='border-bottom'>AA Minimum Gray</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>24px</td>
+            <td>4.5:1</td>
+            <td>#767676</td>
+            <td>3:1</td>
+            <td>#959595</td>
+          </tr>
+          <tr>
+            <td>20px Bold</td>
+            <td>4.5:1</td>
+            <td>#767676</td>
+            <td>3:1</td>
+            <td>#959595</td>
+          </tr>
+          <tr>
+            <td>16px</td>
+            <td>7:1</td>
+            <td>#595959</td>
+            <td>4.5:1</td>
+            <td>#767676</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <section id='related' class='max-width-3 py3'>
+    <h3>See also</h3>
+    <ul>
+      <li>
+        <a href='http://jxnblk.com/colorable'>Colorable</a>
+      </li>
+      <li>
+        <a href='http://jxnblk.com/hello-color'>Hello Color</a>
+      </li>
+      <li>
+        <a href='http://mrmrs.io/contrast/'>Contrast</a>
+      </li>
+    </ul>
+  </section>
+</main>
+<footer class='max-width-4 mx-auto px3 py4'>
+  <a href='http://jxnblk.com'>
+    Made by Jxnblk
+  </a>
+  <a href='https://github.com/jxnblk/grays'>
+    GitHub
+  </a>
+</footer>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-4603832-6", "auto");ga("send", "pageview");</script>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
